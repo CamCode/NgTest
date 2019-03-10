@@ -7,12 +7,14 @@ import { CompraComponent } from './component/compra/compra.component';
 
 //importar variable que exportamos de routing.ts
 import { appRouter } from './routing';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
-    CompraComponent
+    CompraComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
